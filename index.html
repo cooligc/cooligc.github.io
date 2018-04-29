@@ -15,14 +15,18 @@
   <link rel="stylesheet" href="css/animate.css">
   <link href="css/style.css" rel="stylesheet">
   <style>
-    #cover {position: fixed; height: 100%; width: 100%; top:0; left: 0; background: #fff; z-index:9999;}
+    #cover {position: fixed; height: 100%; width: 100%; top:0; left: 0; background: #fff; z-index:9999;
+    background: url('img/myloader.gif') 50% 50% no-repeat rgb(249,249,249);}
+    .center {
+      padding-bottom: 50%;
 
+    }
 .loader {
   border: 16px solid #f3f3f3;
   border-radius: 50%;
   border-top: 16px solid #3498db;
-  width: 120px;
-  height: 120px;
+  width: 12px;
+  height: 12px;
   -webkit-animation: spin 2s linear infinite; /* Safari */
   animation: spin 2s linear infinite;
 }
@@ -51,14 +55,15 @@
 </head>
 
 <body>
-  <div id="cover" class="loader"></div>
+  <!--<div id="cover" class="text-center center"><img src="../img/myloader.gif"/></div>-->
+  <div id="cover"></div>
   <div class="wrapper" id="wrapper">
     <header>
       <div class="banner row" id="banner">
         <div class="parallax text-center" style="background-image: url(img/1.jpg);">
           <div class="parallax-pattern-overlay">
             <div class="container text-center" style="height:600px;padding-top:170px;">
-              <h2 class="intro"><a href="index.html">Sitakanta Chaudhury</a></h2>
+              <h2 class="intro"><a href="index.html"><span style="text-color:blue">Sitakanta Chaudhury</span></a></h2>
             </div>
           </div>
         </div>
