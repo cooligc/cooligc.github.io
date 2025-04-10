@@ -1,403 +1,416 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" class="no-js" >
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Sitakant Chaudhury</title>
 
-  <!-- Bootstrap -->
-  <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/font-awesome.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link href="css/style.css" rel="stylesheet">
-  <style>
-    #cover {position: fixed; height: 100%; width: 100%; top:0; left: 0; background: #fff; z-index:9999;
-    background: url('img/myloader.gif') 50% 50% no-repeat rgb(249,249,249);}
-    .center {
-      padding-bottom: 50%;
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sitakanta Chaudhury</title>
 
-    }
-.loader {
-  border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid #3498db;
-  width: 12px;
-  height: 12px;
-  -webkit-animation: spin 2s linear infinite; /* Safari */
-  animation: spin 2s linear infinite;
-}
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
 
-/* Safari */
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
 
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-  </style>
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
+    <link rel="manifest" href="site.webmanifest">
 
-  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118451720-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-118451720-1');
-</script>
-
-  <!-- =======================================================
-    Theme Name: MyResume
-    Theme URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-  ======================================================= -->
 </head>
 
-<body>
-  <!--<div id="cover" class="text-center center"><img src="../img/myloader.gif"/></div>-->
-  <div id="cover"></div>
-  <div class="wrapper" id="wrapper">
-    <header>
-      <div class="banner row" id="banner">
-        <div class="parallax text-center" style="background-image: url(img/1.jpg);">
-          <div class="parallax-pattern-overlay">
-            <div class="container text-center" style="height:600px;padding-top:170px;">
-              <h2 class="intro"><a href="index.html"><span style="text-color:blue">Sitakanta Chaudhury</span></a></h2>
-            </div>
-          </div>
+
+<body id="top">
+
+    
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
-      </div>
-       <div align='center'> Nos of time , I got search </div>
-       <div align='center'><a href='http://www.hit-counts.com'><img src='http://www.hit-counts.com/counter.php?t=MTQyNDcxOA==' border='0' alt='Hit Counter'></a><BR><a href='http://www.hit-counts.com'>Hit Counter</a></div>
-      <div class="menu">
-        <div class="navbar-wrapper">
-          <div class="container">
-            <div class="navwrapper">
-              <div class="navbar navbar-inverse navbar-static-top">
-                <div class="container">
-                  <div class="navArea">
-                    <div class="navbar-collapse collapse">
-                      <ul class="nav navbar-nav">
-                        <li class="menuItem"><a href="#aboutus">About Me</a></li>
-                        <li class="menuItem"><a href="#specialties">Skills</a></li>
-                        <li class="menuItem"><a href="#feedback">Education</a></li>
-                        <li class="menuItem"><a href="#contact">Contact</a></li>
-			<li class="menuItem"><a href="https://blogs.sitakant.info/">Blog</a></li>
-                      </ul>
+    </div>
+
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+
+
+        <!-- # site header 
+        ================================================== -->
+        <header class="s-header">
+            <div class="row s-header__inner">
+
+                <div class="s-header__block">
+                    <div class="s-header__logo">
+                        <a class="logo" href="index.html">
+                            <img/>
+                        </a>
                     </div>
-                  </div>
+
+                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                </div> <!-- end s-header__block -->
+
+                <nav class="s-header__nav">    
+                    <ul class="s-header__menu-links">
+                        <li class="current"><a class="smoothscroll" href="#intro">Intro</a></li>
+                        <li><a class="smoothscroll" href="#about">About</a></li>
+                        <li><a class="smoothscroll" href="#works">Achievement</a></li>
+                        <!--<li><a class="smoothscroll" href="#freetime">Free Time</a></li> -->
+                        <li><a class="smoothscroll" href="#footer">Contact</a></li>
+                    </ul> <!-- s-header__menu-links -->    
+                </nav> <!-- end s-header__nav -->
+
+            </div> <!-- end s-header__inner -->
+        </header> <!-- end s-header -->
+
+
+        <!-- # intro
+        ================================================== -->
+        <section id="intro" class="s-intro target-section">
+
+            <div class="row s-intro__content width-sixteen-col">
+                <div class="column lg-12 s-intro__content-inner grid-block grid-16">
+                    
+                    <div class="s-intro__content-text">
+
+                        <div class="s-intro__content-pretitle text-pretitle">Hello</div>
+                        <h1 class="s-intro__content-title">
+                        I'm Sitakant <br>
+                        a Software Architect <br>
+                        based in Bangalore,IN.
+                        </h1>                            
+
+                        <div class="s-intro__content-btns">
+                            <a class="smoothscroll btn" href="#about">More About Me</a>
+                            <a class="smoothscroll btn btn--stroke" href="#footer">Get In Touch</a>
+                        </div> <!-- s-intro__content-btns -->   
+
+                    </div> <!-- s-intro__content-text -->                     
+                    
+                </div> <!-- s-intro__content-inner -->  
+            </div> <!-- s-intro__content -->
+
+            <ul class="s-intro__social social-list">
+                <li>
+                    <a href="#0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
+                        <span class="u-screen-reader-text">Facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809 c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793 c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05 c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032 c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028 c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22 c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"></path></svg>
+                        <span class="u-screen-reader-text">Twitter</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"></path></svg>
+                        <span class="u-screen-reader-text">Instagram</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M20.66 6.98a9.932 9.932 0 0 0-3.641-3.64C15.486 2.447 13.813 2 12 2s-3.486.447-5.02 1.34c-1.533.893-2.747 2.107-3.64 3.64S2 10.187 2 12s.446 3.487 1.34 5.02a9.924 9.924 0 0 0 3.641 3.64C8.514 21.553 10.187 22 12 22s3.486-.447 5.02-1.34a9.932 9.932 0 0 0 3.641-3.64C21.554 15.487 22 13.813 22 12s-.446-3.487-1.34-5.02zM12 3.66c2 0 3.772.64 5.32 1.919-.92 1.174-2.286 2.14-4.1 2.9-1.002-1.813-2.088-3.327-3.261-4.54A7.715 7.715 0 0 1 12 3.66zM5.51 6.8a8.116 8.116 0 0 1 2.711-2.22c1.212 1.201 2.325 2.7 3.34 4.5-2 .6-4.114.9-6.341.9-.573 0-1.006-.013-1.3-.04A8.549 8.549 0 0 1 5.51 6.8zM3.66 12c0-.054.003-.12.01-.2.007-.08.01-.146.01-.2.254.014.641.02 1.161.02 2.666 0 5.146-.367 7.439-1.1.187.373.381.793.58 1.26-1.32.293-2.674 1.006-4.061 2.14S6.4 16.247 5.76 17.5c-1.4-1.587-2.1-3.42-2.1-5.5zM12 20.34c-1.894 0-3.594-.587-5.101-1.759.601-1.187 1.524-2.322 2.771-3.401 1.246-1.08 2.483-1.753 3.71-2.02a29.441 29.441 0 0 1 1.56 6.62 8.166 8.166 0 0 1-2.94.56zm7.08-3.96a8.351 8.351 0 0 1-2.58 2.621c-.24-2.08-.7-4.107-1.379-6.081.932-.066 1.765-.1 2.5-.1.799 0 1.686.034 2.659.1a8.098 8.098 0 0 1-1.2 3.46zm-1.24-5c-1.16 0-2.233.047-3.22.14a27.053 27.053 0 0 0-.68-1.62c2.066-.906 3.532-2.006 4.399-3.3 1.2 1.414 1.854 3.027 1.96 4.84-.812-.04-1.632-.06-2.459-.06z"></path></svg>
+                        <span class="u-screen-reader-text">Dribbble</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M11.99 2C6.472 2 2 6.473 2 11.99c0 4.232 2.633 7.85 6.35 9.306-.088-.79-.166-2.006.034-2.868.182-.78 1.172-4.966 1.172-4.966s-.299-.599-.299-1.484c0-1.388.805-2.425 1.808-2.425.853 0 1.264.64 1.264 1.407 0 .858-.546 2.139-.827 3.327-.235.994.499 1.805 1.479 1.805 1.775 0 3.141-1.872 3.141-4.575 0-2.392-1.719-4.064-4.173-4.064-2.843 0-4.512 2.132-4.512 4.335 0 .858.331 1.779.744 2.28a.3.3 0 0 1 .069.286c-.076.315-.245.994-.277 1.133-.044.183-.145.222-.335.134-1.247-.581-2.027-2.405-2.027-3.871 0-3.151 2.289-6.045 6.601-6.045 3.466 0 6.159 2.469 6.159 5.77 0 3.444-2.171 6.213-5.184 6.213-1.013 0-1.964-.525-2.29-1.146l-.623 2.374c-.225.868-.834 1.956-1.241 2.62a10 10 0 0 0 2.958.445c5.517 0 9.99-4.473 9.99-9.99S17.507 2 11.99 2"></path></svg>
+                        <span class="u-screen-reader-text">Pinterest</span>
+                    </a>
+                </li>
+            </ul> <!-- end s-intro__social -->
+            
+            <div class="s-intro__content-media s-intro__content-image">                               
+                <!-- <img src="images/intro-bg.jpg" srcset="images/intro-bg.jpg 2x, images/intro-bg.jpg 4x" alt="" height="20%"> -->
+            </div> <!-- s-intro__content-media -->                
+
+            <div class="s-intro__btn-download">
+                <a class="btn btn--stroke" href="#0">Get My CV</a>
+            </div> <!-- end s-intro__btn-download -->
+            
+            <div class="s-intro__scroll-down">
+                <a href="#about" class="smoothscroll">
+                    <div class="scroll-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M11.178 19.569a.998.998 0 0 0 1.644 0l9-13A.999.999 0 0 0 21 5H3a1.002 1.002 0 0 0-.822 1.569l9 13z"></path></svg>
+                    </div>
+                    <span class="scroll-text u-screen-reader-text">Scroll Down</span>
+                </a>
+            </div> <!-- s-intro__scroll-down -->
+
+        </section> <!-- end s-intro -->
+
+        <section>
+            <marquee><h3 class="s-intro__content-pretitle text-pretitle">Stay tuned-v2.0 is cooking 👨‍🍳</h3></marquee>
+        </section>
+        <!-- # about
+        ================================================== -->
+        <section id="about" class="s-about target-section">
+
+            <div class="row s-about__content">
+                <div class="column xl-12">    
+                    
+                    <div class="section-header" data-num="01">
+                        <h2 class="text-display-title">About Me.</h2>
+                    </div> <!-- end section-header -->
+
+                    <p class="attention-getter">
+                        I am a passionate technologist dedicated to harnessing technology for the greater good. I thrive on exploring new innovations and empowering others to leverage technology in their creative endeavors.
+                    </p>
+
+                    <p class="attention-getter">
+                        I began my career as an Associate and have progressed to a Software Architect role. My expertise spans Development, Designing, DevOps, and Performance optimization, including bottleneck identification and tuning across all layers of the application stack—middleware, database, and network.
+                    </p>
+
+                    <p class="attention-getter">
+                        My expertise encompasses the design and implementation of enterprise applications, from requirement gathering and technical specifications to deployment and production. I also ensure cost-effective solutions when transitioning to the cloud.
+                    </p>
+
+                    <p class="attention-getter">
+                        Currently, I am a Staff Engineer (Software Architect) at @WalmartLabs in Bangalore.</b>.
+                    </p>
+
+                    <div class="grid-list-items s-about__blocks">
+
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Experience</h4>
+                            <ul class="s-about__list">
+                                <li>
+                                    @WalmartLabs
+                                    <span>Staff Engineer</span>
+                                </li>
+                                <li>
+                                    IBM
+                                    <span>Application Solution Engineer</span>
+                                </li>
+                                <li>
+                                    HPE
+                                    <span>Sr. Software Designer</span>
+                                </li>
+                                <li>
+                                    Harman 
+                                    <span>Software Engineer</span>
+                                </li>
+                            </ul>
+                        </div> <!--end s-about__block -->
+
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Awards</h4>
+
+                            <ul class="s-about__list">
+                                <li>
+                                    <a href="#0">
+                                        Bravo Award 
+                                        <span>at @walmartlabs</span>
+                                    </a>                                        
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        Best Team Player 
+                                        <span>@ HPE R&D</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#0">
+                                        Top Contributer 
+                                        <span>at Harman</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div> <!--end s-about__block -->
+                        
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Skills</h4>
+
+                            <ul class="s-about__list">
+                                <li>
+                                    Effortless Problem Solving
+                                </li>
+                                <li>
+                                    Translating Requirements into Technical Specifications
+                                </li>
+                                <li>
+                                    Comprehensive End-to-End (Product Lifecycle Management)
+                                </li>
+                                <li>
+                                    Passionate About Coding 
+                                </li>
+                                <li>
+                                    Optimizing Cloud Costs
+                                </li>
+                            </ul>
+                        </div> <!--end s-about__block -->
+
+                    </div> <!-- grid-list-items -->
+
+                </div> <!--end column -->
+            </div> <!--end s-about__content -->
+            
+        </section> <!-- end s-about -->   
+
+        <section id="works" class="s-works target-section">
+
+            <div class="row">
+                <div class="column xl-12">
+                    <div class="section-header" data-num="02">
+                        <h2 class="text-display-title">Key Achievements</h2>
+                    </div> <!-- end section-header -->
                 </div>
-              </div>
+                <div>
+                    <ul>
+                        <li>
+                            Developed and deployed a cloud-based analytics product that saves millions.
+                        </li>
+                        <li>
+                            Reduced operational time from 5 hours to 10 minutes through extensive pre-automation efforts.
+                        </li>
+                        <li>
+                            Reduced API response time from 10 seconds to less then 100 milliseconds
+                        </li>
+                        <li>
+                            Increased transactions per second (TPS) from 300 to 2200.
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </header>
+            
+        </section>
 
-    <!--about us-->
-    <section class="aboutus" id="aboutus">
-      <div class="container">
-        <div class="heading text-center">
-          <br/><br/>
-          <h2>About Me</h2>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="papers text-center">
-              <img src="img/team/mine.jpg" alt="" width="50%" height="50%"><br/>
-              <!--<a href="https://www.dropbox.com/s/8942bd515o0a4qt/Resume_Latest.pdf?dl=0"><b>Download my resume</b></a><br/>-->
-              <b>#Biker</b> &nbsp; &nbsp; 
-              <b>#OccusionalTraveller</b>&nbsp;&nbsp;
-              <b>#Techie</b>&nbsp;&nbsp;
-              <b>#LoveMyiPhoneNMac</b>&nbsp;&nbsp;
-              <b>#MadAboutTechnology</b>&nbsp;&nbsp;
-              <b>#Love2Sleep</b>&nbsp;&nbsp;
-              <b>#Live4Linux</b>&nbsp;&nbsp;
-              <b>#OpenSouceContributer</b>&nbsp;&nbsp;
-              <b>#Polyglot</b>&nbsp;&nbsp;
-              <b>#DevOpsConsultant</b>
+       
+
+
+        <!-- # numbers
+        ================================================== -->
+    
+
+        <!-- # footer 
+        ================================================== -->
+        <footer id="footer" class="s-footer target-section">
+
+            <div class="row">
+                <div class="column lg-12">
+                    <div class="section-header light-on-dark" data-num="03">
+                        <h2 class="text-display-title">Get In Touch.</h2>
+                    </div> <!-- end section-header -->
+                </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="papers text-center">
-              <p>
-                My name is <b>Sitakanta Chaudhury</b>.
-                <br/>
-                <br/>
-                <br/>
-                I am a technologist who has a deep interest in enabling technology work for good. I love exploring new things, and helping others be empowered to use technology for their creative pursuit.
-              </p>
-              <p>
-                Started my career as an <b>Associate</b> and now working as a <b>Software Architect</b>. I have experienced in Developement, Designing , Infrastructure Automation and DevOps.
-              </p>
-              <p>
-                In my way till now, I have also designing <b>High Avalibility Architecture</b> , Database Schema(both SQL and NoSQL), RESTful web services and many complicated functionality like OrderManagement of an E-Commerce Application, Admin Dashboard etc using various technology.
-              </p>
-              <p>
-                <br/><br/>
-                As of today, I am working as a <b>Staff Engineer (<i>Software Architect</i>)<b> at <b>@WalmartLabs </b>, Bangalore .
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+
+            <div class="row s-footer__content">
+
+                <div class="column xl-6 md-12 s-footer__block s-footer__about">                    
+                    <p class="attention-getter">
+                        I am open to expanding my network and enjoy discussing topics such as life, technology, the stock market, trekking, biking, and traveling. Feel free to reach out if any of these interest you.
+                    </p>               
+                </div> <!-- end section-footer__about -->
+
+                <div class="column xl-6 md-12 s-footer__block s-footer__site-links">
+                    <div class="row">
+                        <div class="column xl-4 lg-5 md-6 tab-12">
+                            <h5>Follow Me</h5>
+                            <ul class="link-list">
+                                <li><a href="https://www.facebook.com/cooligc">Facebook</a></li>
+                                <li><a href="https://x.com/cooligc">X</a></li>
+                                <li><a href="https://www.instagram.com/mrnebulaguard/">Instagram</a></li>
+                                <li><a href="https://www.linkedin.com/in/cooligc/">LinkedIn</a></li>
+                                <li><a href="https://github.com/cooligc">Github</a></li>
+                            </ul>
+                        </div>
+                        <div class="column xl-6 md-6 tab-12">
+                            <h5>Contact Me</h5>
+                            <ul class="link-list">
+                                <li><a href="mailto:#0">chaudhury.sitakant@gmail.com</a></li>
+                                <li><a href="tel:+917204414838">+91-7204-414-838</a></li>
+                            </ul> 
+                        </div>
+                    </div>           
+                    <a href='http://www.freevisitorcounters.com'>Freevisitorcounters</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=efe4559e69b66743fc209625fd1453bed84e9feb'></script>
+                    <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1324149/t/5"></script>         
+                </div> <!-- end section-footer__site-links -->
+
+            </div> <!-- end section-footer__content -->
 
 
-    <!--skills-->
-    <section class="specialties" id="specialties">
-      <div class="container">
-        <div class="heading text-center">
-          <h2>My Skills</h2>
-        </div>
-        <div class="row">
-          <!-- Frontend tech stacks-->
-          <div class="col-md-4">
-                  <img src="img/skills/frontend/javascript.png" data-toggle="tooltip" data-placement="top" title="Java Scripts" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s"/>
-                  <img src="img/skills/frontend/css.png" data-toggle="tooltip" data-placement="top" title="CSS3" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s"/>
-                  <img src="img/skills/frontend/html.png" data-toggle="tooltip" data-placement="top" title="HTML 5" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.9s"/>
-                  <img src="img/skills/frontend/microservices.png" data-toggle="tooltip" data-placement="top" title="Microservices Architecture" width="40%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.12s"/>
-                  <img src="img/skills/frontend/angular.png" data-toggle="tooltip" data-placement="top" title="Angular JS(1,2,4)" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.15s"/>
-              </div>
-              <!-- Language -->
-              <div class="col-md-4">
-                  <img src="img/skills/language/java.png" data-toggle="tooltip" data-placement="top" title="Java" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s"/>
-                  <img src="img/skills/language/node.png" data-toggle="tooltip" data-placement="top" title="node.js" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s"/>
-                  <img src="img/skills/language/python.png" data-toggle="tooltip" data-placement="top" title="Python" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.9s"/>
-                  <img src="img/skills/language/groovy.png" data-toggle="tooltip" data-placement="top" title="Groovy" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.9s"/>
-                  <img src="img/skills/language/typescript.png" data-toggle="tooltip" data-placement="top" title="Typescript" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.12s"/>
-                  <img src="img/skills/language/bash.png" data-toggle="tooltip" data-placement="top" title="Shell Script" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.15s"/>
-                  <img src="img/skills/language/ionic.png" data-toggle="tooltip" data-placement="top" title="Ionic" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.18s"/>
-                  <img src="img/skills/language/android.png" data-toggle="tooltip" data-placement="top" title="Android" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.21s"/>
-              </div>
-              <!-- Frameworks-->
-              <div class="col-md-4">
-                  <img src="img/skills/frameworks/rest.png" data-toggle="tooltip" data-placement="top" title="REST" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s"/>
-                  <img src="img/skills/frameworks/spring.png" data-toggle="tooltip" data-placement="top" title="Spring Frameworks" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s"/>
-                  <img src="img/skills/frameworks/jee.png" data-toggle="tooltip" data-placement="top" title="Java/JEE" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s"/>
-                  <img src="img/skills/frameworks/grails.jpeg" data-toggle="tooltip" data-placement="top" title="Grails" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.9s"/>
-                  <img src="img/skills/frameworks/jpa.jpg" data-toggle="tooltip" data-placement="top" title="JPA" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.12s"/>
-                  <img src="img/skills/frameworks/flask.png" data-toggle="tooltip" data-placement="top" title="Python Flask" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.15s"/>
-                  <img src="img/skills/frameworks/thymeleaf.png" data-toggle="tooltip" data-placement="top" title="Thymeleaf" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.18s"/>
-                  <img src="img/skills/frameworks/broadleaf.png" data-toggle="tooltip" data-placement="top" title="Broadleaf" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.21s"/>
-              </div>
-          </div>
-        <div class="row">
-          <!-- Servers-->
-          <div class="col-md-4">
-                  <img src="img/skills/servers/tomcat.png" data-toggle="tooltip" data-placement="top" title="Apache Tomcat" width="40%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s"/>
-                  <img src="img/skills/servers/wildfly.png" data-toggle="tooltip" data-placement="top" title="Wildfly" width="40%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s"/>
-                  <img src="img/skills/servers/rabbit.png" data-toggle="tooltip" data-placement="top" title="Rabbit MQ" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.9s"/>
-                  <img src="img/skills/servers/mysql.png" data-toggle="tooltip" data-placement="top" title="MySQL Server" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.12s"/>
-                  <img src="img/skills/servers/mongodb.png" data-toggle="tooltip" data-placement="top" title="MongoDB" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.15s"/>
-                  <img src="img/skills/servers/redis.png" data-toggle="tooltip" data-placement="top" title="Redis" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.18s"/>
-              </div>
-              <!-- DevOps Tools-->
-              <div class="col-md-4">
-                  <img src="img/skills/tools/jenkins.png" data-toggle="tooltip" data-placement="top" title="Jenkins" width="40%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s"/>
-                  <img src="img/skills/tools/git.png" data-toggle="tooltip" data-placement="top" title="Git" width="40%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s"/>
-                  <img src="img/skills/tools/slack.png" data-toggle="tooltip" data-placement="top" title="Slack" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.9s"/>
-                  <img src="img/skills/tools/jira.png" data-toggle="tooltip" data-placement="top" title="Atlassin JIRA" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.12s"/>
-                  <!--<img src="img/skills/tools/hipchat.png" width="20%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.15s"/>-->
-                  <img src="img/skills/tools/elk.png" data-toggle="tooltip" data-placement="top" title="ELK (Elasticsearch Logstash Kibana)" width="40%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.18s"/>
-              </div>
-              <!-- Infrastructure -->
-              <div class="col-md-4">
-                  <img src="img/skills/infrastructure/aws.png" data-toggle="tooltip" data-placement="top" title="Amazon Webservices" width="40%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s"/>
-                  <img src="img/skills/infrastructure/docker.png" data-toggle="tooltip" data-placement="top" title="Docker" width="40%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s"/>
-                  <img src="img/skills/infrastructure/kubernates.jpeg" data-toggle="tooltip" data-placement="top" title="Kubernates" width="40%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.9s"/>
-                  <img src="img/skills/infrastructure/pcf.png" data-toggle="tooltip" data-placement="top" title="Pivotal Cloud Foundry" width="40%" height="20%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.12s"/>
-              </div>
-        </div>
-      </div>
-      
-       <!--education-->
-    <section class="feedback" id="feedback">
-      <div class="container">
-        <div class="heading">
-          <h2>I have experienced working with : </h2>
-        </div>
-      </div>
+            <div class="row s-footer__buttons">
+               
+                <div class="column xl-6 tab-12">
+                    <a href="mailto:chaudhury.sitakant@gmail.com" class="btn btn--primary btn--large u-fullwidth">Message Me</a>
+                </div>
+          
+                <div class="column xl-6 tab-12">                    
+                    <a href="#0" class="btn btn--stroke btn--large u-fullwidth">Get My CV</a>
+                </div>
+            
+            </div> <!-- end section-footer__buttons -->              
+            
+           <!-- <div class="row s-footer__bottom">
+                
+                <div class="column xl-6 lg-12">
+                    <ul class="s-footer__social social-list">
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
+                                <span class="u-screen-reader-text">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809 c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793 c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05 c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032 c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028 c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22 c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"></path></svg>
+                                <span class="u-screen-reader-text">Twitter</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"></path></svg>
+                                <span class="u-screen-reader-text">Instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M20.66 6.98a9.932 9.932 0 0 0-3.641-3.64C15.486 2.447 13.813 2 12 2s-3.486.447-5.02 1.34c-1.533.893-2.747 2.107-3.64 3.64S2 10.187 2 12s.446 3.487 1.34 5.02a9.924 9.924 0 0 0 3.641 3.64C8.514 21.553 10.187 22 12 22s3.486-.447 5.02-1.34a9.932 9.932 0 0 0 3.641-3.64C21.554 15.487 22 13.813 22 12s-.446-3.487-1.34-5.02zM12 3.66c2 0 3.772.64 5.32 1.919-.92 1.174-2.286 2.14-4.1 2.9-1.002-1.813-2.088-3.327-3.261-4.54A7.715 7.715 0 0 1 12 3.66zM5.51 6.8a8.116 8.116 0 0 1 2.711-2.22c1.212 1.201 2.325 2.7 3.34 4.5-2 .6-4.114.9-6.341.9-.573 0-1.006-.013-1.3-.04A8.549 8.549 0 0 1 5.51 6.8zM3.66 12c0-.054.003-.12.01-.2.007-.08.01-.146.01-.2.254.014.641.02 1.161.02 2.666 0 5.146-.367 7.439-1.1.187.373.381.793.58 1.26-1.32.293-2.674 1.006-4.061 2.14S6.4 16.247 5.76 17.5c-1.4-1.587-2.1-3.42-2.1-5.5zM12 20.34c-1.894 0-3.594-.587-5.101-1.759.601-1.187 1.524-2.322 2.771-3.401 1.246-1.08 2.483-1.753 3.71-2.02a29.441 29.441 0 0 1 1.56 6.62 8.166 8.166 0 0 1-2.94.56zm7.08-3.96a8.351 8.351 0 0 1-2.58 2.621c-.24-2.08-.7-4.107-1.379-6.081.932-.066 1.765-.1 2.5-.1.799 0 1.686.034 2.659.1a8.098 8.098 0 0 1-1.2 3.46zm-1.24-5c-1.16 0-2.233.047-3.22.14a27.053 27.053 0 0 0-.68-1.62c2.066-.906 3.532-2.006 4.399-3.3 1.2 1.414 1.854 3.027 1.96 4.84-.812-.04-1.632-.06-2.459-.06z"></path></svg>
+                                <span class="u-screen-reader-text">Dribbble</span>
+                            </a>
+                        </li>
+                    </ul> 
+                </div> --> <!-- end section-footer__social -->
 
-      <div class="container">
-          <div class="row">
-            <div class="contact-info text-center">
-              <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
-                <img src="img/company/harman.png" data-toggle="tooltip" data-placement="top" title="Harman" width="50%" height="10%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s"/>
-              </div>
-              <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s">
-                <img src="img/company/hpe.png" data-toggle="tooltip" data-placement="top" title="HPE R&D " width="40%" height="10%" class="wow fadeInRight" data-wow-offset="12" data-wow-delay="0.3s"/>
-              </div>
-              <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.9s">
-                <img src="img/company/ibm.png" data-toggle="tooltip" data-placement="top" title="IBM" width="40%" height="10%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s"/>
-              </div>
-              <div class="col-md-5 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.12s">
-                <img src="img/company/walmart.png" data-toggle="tooltip" data-placement="top" title="@WalmartLabs" width="40%" height="10%" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s"/>
-              </div>
-            </div>
-          </div>
-    </section>
+                <!--<div class="column xl-6 lg-12">
+                    <p class="ss-copyright">
+                        <span>© Copyright Hudson 2023</span> 
+                        <span>Design by <a href="https://styleshout.com/">StyleShout</a> Distribution by <a href="https://themewagon.com">ThemeWagon</a></span>
+                    </p>
+                </div> -->
 
-    <!--education-->
-    <section class="feedback" id="feedback">
-      <div class="container">
-        <div class="heading">
-          <h2>Education</h2>
-          <h3>I am an Engineer</h3>
-        </div>
-      </div>
+            </div> <!-- end section-footer__bottom -->          
 
-      <div class="container">
-        <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
-          <div class="text-center">
-            <div class="hi-icon-wrap hi-icon-effect">
-              <h4>B.Tech (ECE)</h4>
-              <i class="fa fa-laptop"></i>
-              <p>@ GIST , Rayagada ... Under BPUT, Rourkela(Odisha)</p>
-            </div>
-          </div>
-        </div>
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">                 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A1 1 0 0 0 5 3v18a1 1 0 0 0 .536.886z"></path></svg>
+                </a>                                
+                <span>Back To Top</span>   
+            </div> <!-- end ss-go-top -->
+            
+        </footer> <!-- end s-footer -->
 
-        <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s">
-          <div class="text-center">
-            <div class="hi-icon-wrap hi-icon-effect">
-              <h4>12th </h4>
-              <i class="fa fa-laptop"></i>
-              <p>@ Larambha College , Larambha ... Under CHSE , Bhubaneswar (Odisha)</p>
-            </div>
-          </div>
-        </div>
+    </div> <!-- end page-wrap -->
 
-        <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.9s">
-          <div class="text-center">
-            <div class="hi-icon-wrap hi-icon-effect">
-              <h4>HSC</h4>
-              <i class="fa fa-laptop"></i>
-              <p>@ Pallishree High School , Saradhapali ... Under BSE , Bhubaneswar (Odisha)</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--education-->
-    <section class="contact" id="contact">
-      <div class="container">
-        <div class="heading">
-          <h2>Reach me at</h2>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="row">
-          <div class="contact-info text-center">
-            <p>e-mail : <a href="mailto:chaudhury.sitakant@gmail.com?Subject=QueryFromProfile">chaudhury.sitakant@gmail.com</a> or <a href="mailto:contact@sitakant.info?Subject=QueryFromProfile">contact@sitakant.info</a></p>
-					  <span><a href="http://stackoverflow.com/users/3637043/igcipher"><img src="http://stackoverflow.com/users/flair/3637043.png" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s"/></a></span>
-					  <span><a href="https://github.com/cooligc"><img src="img/git.gif" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s" width="5%" height="5%"/></a></span>
-					  <span><a href="https://in.linkedin.com/in/cooligc?trk=profile-badge"><img src="img/linkedin.png" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.9s" width="5%" height="5%"/></a></span>
-					  <span><a href="https://twitter.com/coolsitakant"><img src="img/twitter.jpg" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.12s" width="5%" height="5%"/></a></span>
-					  <span><a href="https://www.facebook.com/cooligc"><img src="img/fb.png" class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.15s" width="5%" height="5%"/></a></span>
-					  <span><a href='http://vizualize.me/cooligc?r=cooligc' title='Sitakanta Chaudhury's infographic CV on vizualize.me' target='_blank'><img src='http://vizualize.me/media/img/socialicons/vizualizeme.png' class="wow fadeInRight" data-wow-offset="0" data-wow-delay="0.20s" width="5%" height="5%"/></a></span>
-          </div>
-        </div>
-      </div>
-
-      
-    </section>
-
-    <!--footer-->
-    <section class="footer" id="footer">
-      <p class="text-center">
-        <a href="#wrapper" class="gototop"><i class="fa fa-angle-double-up fa-2x"></i></a>
-      </p>
-      <div class="container">
-        <p>&copy; Sitakant . All Rights Reserved.</p>
-      </div>
-    </section>
-
-  </div>
-  <script src="js/jquery.js"></script>
-  <script src="js/modernizr.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/menustick.js"></script>
-  <script src="js/parallax.js"></script>
-  <script src="js/easing.js"></script>
-  <script src="js/wow.js"></script>
-  <script src="js/smoothscroll.js"></script>
-  <script src="js/masonry.js"></script>
-  <script src="js/imgloaded.js"></script>
-  <script src="js/classie.js"></script>
-  <script src="js/colorfinder.js"></script>
-  <script src="js/gridscroll.js"></script>
-  <script src="js/contact.js"></script>
-  <script src="js/common.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
-  <script>
-    wow = new WOW({}).init();
-  </script>
-  <script type="text/javascript">
-    jQuery(function($) {
-      $(document).ready(function() {
-        $(window).on('load', function() {
-           $("#cover").fadeOut(200);
-        });
-        //Enable Tooltip
-        $(function () {
-         $('[data-toggle="tooltip"]').tooltip()
-        });
-
-        //enabling stickUp on the '.navbar-wrapper' class
-        $('.navbar-wrapper').stickUp({
-          parts: {
-            0: 'banner',
-            1: 'aboutus',
-            2: 'specialties',
-            3: 'gallery',
-            4: 'feedback',
-            5: 'contact'
-          },
-          itemClass: 'menuItem',
-          itemHover: 'active',
-          topMargin: 'auto'
-        });
-      });
-
-      //Google Map
-      var get_latitude = $('#google-map').data('latitude');
-      var get_longitude = $('#google-map').data('longitude');
-
-      function initialize_google_map() {
-        var myLatlng = new google.maps.LatLng(get_latitude, get_longitude);
-        var mapOptions = {
-          zoom: 14,
-          scrollwheel: false,
-          center: myLatlng
-        };
-        var map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
-        var marker = new google.maps.Marker({
-          position: myLatlng,
-          map: map
-        });
-      }
-      google.maps.event.addDomListener(window, 'load', initialize_google_map);
-    });
-  </script>
-  <script src="contactform/contactform.js"></script>
-
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
-
 </html>
