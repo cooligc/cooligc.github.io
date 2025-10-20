@@ -19,7 +19,7 @@ A sophisticated React-based personal portfolio website showcasing professional j
 
 1. Navigate to the project directory:
 ```bash
-cd profile-app
+cd cooligc.github.io
 ```
 
 2. Install dependencies:

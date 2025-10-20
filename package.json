@@ -2,7 +2,7 @@
   "name": "profile-app",
   "version": "1.0.0",
   "description": "Personal profile React application",
-  "homepage": "https://YOUR-USERNAME.github.io/YOUR-REPOSITORY-NAME",
+  "homepage": "https://cooligc.github.io/",
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
