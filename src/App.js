@@ -281,7 +281,7 @@ Contact: sitakanta.chaudhury@example.com`;
       <section id="career" className="section career-section">
         <div className="container">
           <h2 className="section-title">Career</h2>
-          <p className="section-subtitle">14+ Years of Growth & Future Aspirations</p>
+          <p className="section-subtitle">10+ Years of Growth & Future Aspirations</p>
           
           <div className="career-roadmap">
             <div className="roadmap-timeline">
