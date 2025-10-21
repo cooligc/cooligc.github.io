@@ -333,7 +333,7 @@ Contact: sitakanta.chaudhury@example.com`;
                 <div className="phase-content">
                   <div className="milestone">
                     <h4>Harman</h4>
-                    <p>Embedded & Automotive</p>
+                    <p>Ecommerce and HEDM</p>
                   </div>
                   <div className="milestone">
                     <h4>HPE R&D</h4>
